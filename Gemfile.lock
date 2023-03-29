@@ -1,12 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    erubis (2.7.0)
+    multi_json (1.15.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.8)
     puma (6.2.0)
       nio4r (~> 2.0)
     rack (2.2.6.4)
+    rack-flash3 (1.0.5)
+      rack
     rack-protection (3.0.5)
       rack
     ruby2_keywords (0.0.5)
@@ -15,14 +19,24 @@ GEM
       rack (~> 2.2, >= 2.2.4)
       rack-protection (= 3.0.5)
       tilt (~> 2.0)
+    sinatra-contrib (3.0.5)
+      multi_json
+      mustermann (~> 3.0)
+      rack-protection (= 3.0.5)
+      sinatra (= 3.0.5)
+      tilt (~> 2.0)
     tilt (2.1.0)
 
 PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
+  erubis
   puma
+  rack
+  rack-flash3
   sinatra
+  sinatra-contrib
 
 RUBY VERSION
    ruby 3.1.2p20
