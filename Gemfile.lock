@@ -6,6 +6,7 @@ GEM
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.8)
+    pg (1.4.6)
     puma (6.2.0)
       nio4r (~> 2.0)
     rack (2.2.6.4)
@@ -32,6 +33,7 @@ PLATFORMS
 
 DEPENDENCIES
   erubis
+  pg
   puma
   rack
   rack-flash3
