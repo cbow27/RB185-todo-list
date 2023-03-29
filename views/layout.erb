@@ -16,7 +16,6 @@
         <%== yield_content :header_links %>
       </div>
     </header>
-
     <% if session[:success] %>
       <div class="flash success">
         <p><%= session.delete(:success) %></p>

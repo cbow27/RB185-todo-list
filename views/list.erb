@@ -11,7 +11,6 @@
       <li><a class="edit" href="/lists/<%= @list_id %>/edit">Edit List</a></li>
     </ul>
   </header>
-
   <ul>
     <% sort_todos(@list[:todos]) do |todo| %>
       <% if todo[:completed] %>

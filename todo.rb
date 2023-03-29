@@ -15,7 +15,6 @@ configure(:development) do
   require "sinatra/reloader"
   also_reload "database_persistence.rb"
 end
-
 helpers do
   def list_complete?(list)
     todos_count(list) > 0 && todos_remaining_count(list) == 0
