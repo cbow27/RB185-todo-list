@@ -136,7 +136,7 @@ post "/lists/:id" do
   end
 end
 
-# Delete a todo list
+#Delete a todo list
 post "/lists/:id/destroy" do
   id = params[:id].to_i
 

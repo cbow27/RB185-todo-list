@@ -80,5 +80,5 @@ class DatabasePersistence
           completed: todo_tuple["completed"] == "t"}
       end
     end
-
+    
 end
